@@ -1,0 +1,255 @@
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 250;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 25px;
+    transition: all .5 ease;
+}
+.navbar ul li a:hover {
+    background-color:rgb(255, 255, 250);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+/*home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+#home::before{
+    content:"" ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/img3.jpg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;    
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px 40px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 200px;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-size: 1.5rem;
+    
+    
+
+
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+    
+}
+/* about section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+#pic{
+    display: flex;
+    background-size: 100%;
+    
+
+
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    justify-content: center;
+    align-items: center;
+   
+    padding: 50px;
+}
+#intro h2{  
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#intro p {
+    line-height: 1.5;
+    width: 70%;
+    
+}
+
+/* portefolje section */
+
+#portfolje{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.projects {
+    padding: 60px 20px 100px;
+    color: white;
+    background-color: black;
+
+}
+
+.gallery {
+    display: flex;
+    
+    
+
+
+}
+.gallery img{
+    width: 300px;
+    margin: 10px;
+    height: 240px;
+}
+
+.heading {
+    margin-bottom: 4.5rem;
+    font-size: 2rem;
+    margin-left: 15px;
+    
+}
+.box {
+    padding: 8rem 0;
+}
+ 
+.contact-icons-box {
+    display: flex;
+    
+    
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+ 
+.contact-content h1 {
+    color: blue;
+    margin-bottom: 1rem;
+}
+ 
+.contact-content p {
+    color: rgba(27, 27, 27, 0.7);
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.1rem;
+}
+ 
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+ 
+.contact-icons-box {
+    gap: 1.5rem;
+    align-items: center;
+    display: flex;
+}
+ 
+.contact-icons-box span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: blue;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+ 
+.contact-info a {
+    color: rgba(27, 27, 27, 0.7)
+}
+ 
+.contact-info a:hover {
+    color: blue;
+}
+footer{
+    background-color: grey;
+    height: 20vh;
+}
+
+.teknologi {
+display: flex;
+margin: 150px;
+gap: 50px;
+justify-content: center;
+}
+
+.tinker{
+width: 320px;
+height: 320px;
+}
+
+
+
+
+
+
